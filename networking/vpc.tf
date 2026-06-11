@@ -76,5 +76,3 @@ resource "aws_subnet" "private_db_b" {
     Name = "private-db-b"
   }
 }
-
-# hihello
