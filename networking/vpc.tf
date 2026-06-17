@@ -73,8 +73,6 @@ resource "aws_subnet" "private_db_b" {
   availability_zone = "ap-south-1b"
 
   tags = {
-    Name = "private-db-b"
+    Name = "private-db-c"
   }
 }
-
-# hihello
