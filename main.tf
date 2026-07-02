@@ -1,9 +1,9 @@
 module "networking" {
-  source = "./networking"
+  source = "./modules/networking"
 }
 
 module "security" {
-  source = "./security"
+  source = "./modules/security"
 
   vpc_id = module.networking.vpc_id
 }
