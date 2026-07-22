@@ -14,8 +14,8 @@ module "eks" {
   cluster_name = "three-tier-eks"
 
   subnet_ids = [
-    module.networking.private_app_subnet_a,
-    module.networking.private_app_subnet_b
+    module.networking.private_app_subnet_a_id,
+    module.networking.private_app_subnet_b_id
   ]
 }
 
